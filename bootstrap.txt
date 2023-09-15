@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------------------
+ breakpoints
+
+small => sm => mobile devices
+Medium => md => ipad
+Large => lg => laptop
+Extra large => xl => desktop
+Extra extra large => xxl => TV
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+
+class = ""
+
+class = "list-unstyled" => remove bullet point of the immediate children of the ul or ol
+
+
+(ul -> class="list-inline") and (each li -> class="list-inline-item") => make the list items inline
+
+
+description list => horizontally align
+
+add dl inside the .container > .row > dl
+
+
+in order to use align-items-center,justify-content and align-self, h-10 class need in the row and 
+in the style tag add ,
+.h-10{
+            height: 10rem;
+}
+align-items-center => row
+justify-content => row
+align-self => column
+
+
+text-truncate => truncate the text if the length of the text is long
+
+
+img-fluid => sets max-width:100% , height:auto;
+
+img-thumbnail => sets padding and margins
+
+rounded => rounded image without 
+
+mx-auto d-block => center the image
+
+float-start => align image to the left
+
+float-end => align image to the right
+
+
+
+
+ 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <style>
+        .h-10{
+            height: 20rem;
+        }
+        @media (max-width:576px){
+            table{
+                display: flex;
+                flex-direction: column;
+                flex-basis: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- <h1>Hello, Gabrial!</h1> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-dange table-striped table table-striped-columns table-hover table-bordered border-danger caption-top">
+                <caption>List of users</caption>
+                <thead>
+                  <tr class="table-dark border-danger">
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tfoot>
+                    <tr>
+                        <td>Footer</td>
+                        <td>Footer</td>
+                        <td>Footer</td>
+                        <td>Footer</td>
+                    </tr>
+                  </tfoot>
+                </tbody>
+              </table>
+            
+        </div>
+    </div>
+</div>
+
+
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

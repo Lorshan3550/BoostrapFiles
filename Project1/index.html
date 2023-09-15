@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .h-10{
+            height: 10rem;
+        }
+        .container,nav{
+            display: flex;
+            flex-direction: row;
+            gap:1.5rem;
+            justify-content: space-between;
+        }
+
+        p.nav-item{
+            border: 1px solid black;
+            border-radius:15px;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        p.nav-item:hover{
+            border: 1px solid black;
+            border-radius:10px;
+            background-color: black;
+            color: white;
+        }
+
+        .container > *{
+            margin-top: 1.75rem;
+        }
+
+        main .line{
+            height: 100px;
+            width: 100px;
+            color: purple;
+        }
+
+        
+
+        main > hr{
+            height:2px;
+            width: 25%;
+            color:rgb(128, 0, 128);
+            background-color:rgb(150, 24, 150)
+        }
+
+        #line{
+            width: 30%;
+            height: 0.4rem;
+            background-color: rgb(114, 88, 217);
+            border-radius: 5px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        main > .nav-item{
+            width: 10%;
+            margin-top: 2%;
+            text-align: center;
+        }
+
+        .text{
+            font-weight: 500;
+            margin-top: 2%;
+        }
+
+        p.sel{
+            text-decoration: dotted;
+        }
+
+        @media (min-width:760px){
+            *{
+                flex-wrap: wrap;
+            }
+        }
+
+
+       
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="icon">
+        <i class="bi bi-list" style="font-size: 1.5rem;"></i>
+    </div>
+    <nav>
+        <p class="nav-item">Home</p>
+        <p class="nav-item">AboutUs</p>
+        <p class="nav-item">Destination</p>
+        <p class="nav-item">Tour</p>
+    </nav>
+    <nav>
+        <p class="nav-item">Contact us</p>
+        <i class="bi bi-person-circle" style="font-size: 1.5rem;"></i>
+    </nav>
+</div>
+<hr>
+
+<main>
+    
+    
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-4 col-lg-6">
+                <p class="display-2">Discover New Avenues<br/> for Unforgettable<br/> Adventures</p>
+                <div id="line"></div>
+                <p class="text">Unleash your spirit of wanderlust and immerse yourself in <br/>
+                the captivating world of adventure. With each step into the unknown</p>
+                <p class="nav-item">Read More</p>
+                <div class="row flex-row justify-content-between">
+                    <div class="col-5">
+                        <a href="">Popular Destination</a>
+                    </div>
+                    <div class="col-5" style="display: flex;gap: 1rem;">
+                        <p class="nav-item ">#arora</p>
+                        <p class="nav-item ">#sea</p>
+                        <p class="nav-item ">#hills</p>
+                        <p class="nav-item ">#naygra</p>
+                    </div>
+                </div>
+                <div class="row align-content-center">
+                    <div class="col-12  ">
+                        <img src="./img2.jpg" alt="two-images">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="text">Embrace the thrill of exploring uncharted territories, whether it's hiking through <br/>
+                            lust forests, diving into crystal-clear waters, or traversing ancient cities<br/>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row" >
+                    <div class="col-2">
+                        <p class="sel" style="text-decoration: dotted;">Select</p>
+                    </div>
+                    <div class="col" style="display: flex;gap: 1rem;">
+                        <p class="nav-item ">Destination</p>
+                        <p class="nav-item ">Number of days</p>
+                        <p class="nav-item ">Member</p>
+                        <p class="nav-item ">Search</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4 align-self-center">
+                <img src="./img1.jpg" alt="main image">
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
